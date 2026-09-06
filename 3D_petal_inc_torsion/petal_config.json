@@ -1,0 +1,9 @@
+{
+  "type": "petal",
+  "center_x": 1.0447213595,
+  "center_y": 1.0447213595,
+  "base_radius": 0.5,
+  "amplitude": 0.2,
+  "num_petals": 5,
+  "phase": 0.0
+}
