@@ -1,0 +1,29 @@
+# Python dependencies for the PI-GNN hole-plate pipeline.
+#
+# NOTE: FEniCSx (dolfinx, ufl, petsc4py, mpi4py) is NOT reliably installable
+# from PyPI. Install it with conda/mamba via environment.yml, then install the
+# remaining packages listed here. See README.md -> Environment.
+#
+# Pin versions to whatever the reported results were produced with before
+# archiving the repository for review.
+
+# --- Core numerics -----------------------------------------------------------
+numpy
+scipy
+pandas
+
+# --- Deep learning (Stage 2: PI-GNN training) --------------------------------
+torch
+torch_geometric
+tensorboard
+
+# --- Meshing and I/O ---------------------------------------------------------
+meshio
+
+# --- Plotting ----------------------------------------------------------------
+matplotlib
+
+# --- FEM reference (Stage 3); conda-only, see environment.yml ----------------
+# fenics-dolfinx
+# petsc4py
+# mpi4py

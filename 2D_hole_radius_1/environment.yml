@@ -1,0 +1,31 @@
+# Conda environment for the PI-GNN hole-plate pipeline.
+#
+#   conda env create -f environment.yml
+#   conda activate femml
+#
+# FEniCSx and PyTorch Geometric both come from conda-forge here, which avoids
+# the PETSc/MPI ABI mismatches that a mixed pip/conda install tends to produce.
+name: femml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+
+  # --- Core numerics ---
+  - numpy
+  - scipy
+  - pandas
+
+  # --- FEM reference solver (Stage 1 mesh I/O + Stage 3 FEniCSx) ---
+  - fenics-dolfinx
+  - petsc4py
+  - mpi4py
+  - meshio
+
+  # --- Plotting ---
+  - matplotlib
+
+  # --- Deep learning (Stage 2: PI-GNN training) ---
+  - pytorch
+  - pytorch_geometric
+  - tensorboard
