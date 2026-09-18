@@ -15,6 +15,8 @@ The supplied examples compare PI-GNN predictions against FEniCSx finite-element 
 
 Each folder is self-contained and includes meshing, training, FEM reference, evaluation, environment requirements, and detailed instructions.  Start with its local README.
 
+![Twisting_rod results](3D_petal_inc_torsion/results/Figure19.png)
+
 ## Run an example
 
 ```bash
