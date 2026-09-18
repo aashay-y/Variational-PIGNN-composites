@@ -51,7 +51,7 @@ If you use this code, please cite the accompanying [arXiv paper](https://arxiv.o
 ```bibtex
 @article{yadav2026variational,
   title   = {A variational physics-informed graph neural network for heterogeneous solid mechanics},
-  author  = {Yadav, Aashay Rajan and Das, Amiya Prakash and Annabattula, Ratna Kumar},
+  author  = {Aashay Yadav, Amiya Prakash Das and Ratna Kumar Annabattula},
   journal = {arXiv preprint arXiv:2609.10983},
   year    = {2026}
 }
